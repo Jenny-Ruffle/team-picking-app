@@ -1,0 +1,76 @@
+{
+    "players": [
+        {
+            "id": 1,
+            "name": "Andy",
+            "attacking": 9,
+            "defending": 4,
+            "passing": 7,
+            "running":8,
+            "goalkeeping": 4
+        },
+        {
+            "id": 2,
+            "name": "Bill",
+            "attacking": 3,
+            "defending": 7,
+            "passing": 4,
+            "running":5,
+            "goalkeeping": 8
+        },
+        {
+            "id": 3,
+            "name": "Carl",
+            "attacking": 6,
+            "defending": 4,
+            "passing": 7,
+            "running":7,
+            "goalkeeping": 6
+        },
+        {
+            "id": 4,
+            "name": "Dennis",
+            "attacking": 9,
+            "defending": 9,
+            "passing": 7,
+            "running":8,
+            "goalkeeping": 4
+        },
+        {
+            "id": 5,
+            "name": "Eric",
+            "attacking": 3,
+            "defending": 7,
+            "passing": 7,
+            "running":5,
+            "goalkeeping": 8
+        },
+        {
+            "id": 6,
+            "name": "Fraser",
+            "attacking": 6,
+            "defending": 6,
+            "passing": 7,
+            "running":7,
+            "goalkeeping": 6
+        },
+        {
+            "id": 7,
+            "name": "George",
+            "attacking": 9,
+            "defending": 7,
+            "passing": 7,
+            "running":2,
+            "goalkeeping": 4
+        },
+        {
+            "id": 8,
+            "name": "Henry",
+            "attacking": 3,
+            "defending": 7,
+            "passing": 2,
+            "running":4,
+            "goalkeeping": 8
+        }
+    ]
+}

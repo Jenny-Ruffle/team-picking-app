@@ -1,0 +1,70 @@
+.players-table__container {
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.players-table {
+    background-color: #363842;
+    width: 1210px;
+    padding: 16px;
+    margin: 0 auto;
+}
+
+.players-table__categories {
+    display: flex;
+}
+
+.players-table__category-heading {
+    color: white;
+    width: 140px;
+    margin: 0 0 16px;
+    border-bottom: 1px solid white;
+    font: 22px/28px 'Permanent Marker', Helvetica;
+}
+
+.players-table__row {
+    display: flex;
+}
+
+.players-table__row-value {
+    color: white;
+    width: 140px;
+    font: 18px/24px 'Montserrat', Helvetica, Arial, sans-serif;
+    height: 44px;
+    margin: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.players-table__checkbox {
+    color: white;
+    width: 140px;
+    height: 24px;
+    margin: 10px 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.players-table__delete {
+    display: block;
+    text-align: center;
+    color: white;
+    background-color: rgb(78, 32, 32);
+    padding: 0 12px;
+    font: 14px/20px 'Montserrat', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    margin: 4px;
+    height: 36px;
+}
+
+.players-table__delete:hover {
+    cursor: pointer;
+    border: none;
+    background-color: rgb(107, 44, 44);
+};

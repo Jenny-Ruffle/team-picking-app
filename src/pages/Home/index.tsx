@@ -1,5 +1,8 @@
 import React from 'react';
 import './App.css';
+import NewPlayerForm from '../../components/NewPlayerForm/index.jsx';
+import PlayerList from '../../components/PlayerList/index.jsx';
+import TeamDisplay from '../../components/TeamDisplay/index.jsx';
 
 function App() {
   return (
@@ -10,7 +13,11 @@ function App() {
         </h2>
       </header>
       <div className="App-content">
-
+        <PlayerList/>
+        <div className="button-container">
+          <NewPlayerForm/>
+          <TeamDisplay/>
+        </div>
       </div>
     </div>
   );
