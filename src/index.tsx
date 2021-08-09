@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './pages/Home';
 import reportWebVitals from './reportWebVitals';
+import PlayerStoreProvider from './utils/playerStore';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <PlayerStoreProvider>
+      <App />
+    </PlayerStoreProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

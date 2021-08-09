@@ -2,9 +2,9 @@
     display: block;
     text-align: center;
     color: white;
-    background-color: rgb(20, 41, 61);
+    background-color: rgb(44, 91, 136);
     padding: 10px 20px;
-    font: 18px/22px 'Permanent Marker', Helvetica, Arial, sans-serif;
+    font: 20px/24px 'Permanent Marker', Helvetica, Arial, sans-serif;
     font-weight: 500;
     border: none;
     border-radius: 5px;
@@ -13,7 +13,7 @@
 .button:hover {
     cursor: pointer;
     border: none;
-    background-color: rgb(44, 91, 136);
+    background-color: rgb(20, 41, 61);
 };
 :disabled {
     background-color: #e4e4e4;

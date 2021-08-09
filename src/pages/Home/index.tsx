@@ -3,7 +3,6 @@ import './App.css';
 import NewPlayerForm from '../../components/NewPlayerForm/index.jsx';
 import PlayerList from '../../components/PlayerList/index.jsx';
 import TeamDisplay from '../../components/TeamDisplay/index.jsx';
-import initialPlayers from '../../mock/players.json';
 
 function App() {
   return (
@@ -14,7 +13,7 @@ function App() {
         </h2>
       </header>
       <div className="App-content">
-        <PlayerList savedPlayers={initialPlayers.players}/>
+        <PlayerList/>
         <div className="button-container">
           <NewPlayerForm/>
           <TeamDisplay/>
